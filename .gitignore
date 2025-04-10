@@ -85,7 +85,7 @@ lerna-debug.log*
 .pnp.js
 
 # Fichiers spécifiques à ASIO
-/asiosdk*/
+#/asiosdk*/
 
 # Fichiers de déploiement
 .vercel
