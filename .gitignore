@@ -1,0 +1,92 @@
+# Dépendances
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Fichiers de build
+/dist
+/build
+/out
+/.next
+/frontend/dist
+/frontend/build
+
+# Fichiers de build du module natif C++
+/backend/asio/build/
+/backend/asio/prebuilds/
+*.node
+*.o
+*.obj
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+*.exp
+*.pdb
+*.ilk
+*.map
+*.gch
+
+# Fichiers de configuration locaux
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de cache
+.cache/
+.parcel-cache/
+.eslintcache
+.npm
+.yarn
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+pyenv/
+.python-version
+
+# Fichiers d'IDE et d'éditeur
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Fichiers de log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Fichiers de test
+/coverage
+/.nyc_output
+
+# Fichiers temporaires
+.tmp
+.temp
+
+# Fichiers spécifiques à Vite
+.vite/
+
+# Fichiers spécifiques à React
+.pnp.*
+.pnp.js
+
+# Fichiers spécifiques à ASIO
+/asiosdk*/
+
+# Fichiers de déploiement
+.vercel
+.netlify

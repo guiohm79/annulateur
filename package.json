@@ -1,0 +1,21 @@
+{
+  "name": "annulateur",
+  "version": "1.0.0",
+  "description": "Application d'annulation de bruit par inversion de phase utilisant ASIO",
+  "main": "index.js",
+  "scripts": {
+    "build:backend": "cd backend/asio && node-gyp configure build",
+    "start:dev": "cd frontend && npm start",
+    "install:all": "npm install && cd frontend && npm install",
+    "build": "npm run build:backend"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.3.2",
+    "node-gyp": "^9.3.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
